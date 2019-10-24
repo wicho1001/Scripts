@@ -6,14 +6,14 @@ touch Readme.md && echo >> Readme.md "`modulo`
 
  ### ORGANIZACIÓN DE MÓDULO 
  
- - [Sesión 1](): 
- - [Sesión 2](): 
- - [Sesión 3](): 
- - [Sesión 4](): 
- - [Sesión 5](): 
- - [Sesión 6](): 
- - [Sesión 7](): 
- - [Sesión 8]():
+ - [Sesión 1](./Sesion-01): 
+ - [Sesión 2](./Sesion-02): 
+ - [Sesión 3](./Sesion-03): 
+ - [Sesión 4](./Sesion-04): 
+ - [Sesión 5](./Sesion-05): 
+ - [Sesión 6](./Sesion-06): 
+ - [Sesión 7](./Sesion-07): 
+ - [Sesión 8](./Sesion-08):
 
 " && for i in {1..8}; do mkdir Sesion-0$i && cd Sesion-0$i && 
 for i in {1..3}; do mkdir Reto-0$i && cd Reto-0$i && touch Readme.md && echo >> Readme.md " 
@@ -35,7 +35,6 @@ agrega el programa que se desarrollara con backticks> [agrega la sesion con back
 Agrega las instrucciones generales del ejemplo o reto
 
 <details>
-
 	<summary>Solucion</summary>
 	<p> Agrega aqui la solucion</p>
 	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
